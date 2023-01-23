@@ -386,7 +386,6 @@ Pour l'exemple ci-dessus, le résultat correct serait :
 ['GOOG', 'ORLY', 'AMZN']
 ```
 
-
 # Culture informatique
 
 ### 1- En HTML, quelle option utiliseriez-vous pour inclure une feuille de style CSS externe ?
@@ -402,6 +401,46 @@ Pour l'exemple ci-dessus, le résultat correct serait :
 - B] `Un attribut disabled`
 - C] `Une classe read-only`
 - D] `Un attribut read-only`
+- E] Aucune des propositions
 
-### 3- 
-Aucune des propositions
+### 3- Exercice SQL
+
+<img width="786" alt="Capture d’écran 2023-01-23 à 20 48 20" src="https://user-images.githubusercontent.com/14289777/214136172-2c8edcc9-2ffe-4ab7-b169-8fdc0a4cf485.png">
+
+#### Objectif
+
+Extraire les emplacements de pièces de véhicule ( `vehicle_part_location` ) pour
+lesquels `location_id` est égal à 3, 6, ou 12 et ayant une date de sortie ( `left_timestamp` )
+définie.
+
+#### Conditions
+
+Colonnes attendues : `vehicle_part_id` , `arrived_timestamp` , dans cet ordre.
+
+Exemple :
+
+```sql
+-------------------------------------------------
+| VEHICLE_PART_ID | ARRIVED_TIMESTAMP |
+-------------------------------------------------
+| 4 | 2019-08-18T20:30:20.0000000 |
+| 6 | 2019-12-21T04:33:32.0000000 |
+| 7 | NULL |
+-------------------------------------------------
+```
+
+### 4- Quelle commande linux ne vous permet pas de voir le contenu d'un fichier ?
+
+- A] emacs
+- B] grep
+- C] less
+- D] ls
+- E] cat
+- F] vim
+
+### 5- Comment crée-t-on un cookie dont la durée de vie est limitée à la session du navigateur ?
+
+- A] Il n'est pas possible de créer un cookie avec une telle durée de vie
+- B] En positionnant la date d'expiration dans un futur lointain
+- C] En ne précisant pas de date d'expiration du cookie
+- D] En ne précisant pas de domaine au niveau du cookie
