@@ -9,7 +9,7 @@
 
 # Symfony
 
-#### 1- Dans les templates twig, quelles fonctions sont disponibles pour aider au traitement des formulaires ?
+### 1- Dans les templates twig, quelles fonctions sont disponibles pour aider au traitement des formulaires ?
 
 *Plusieurs réponses attendues.*
 
@@ -18,7 +18,7 @@
 - C] `form_display()`
 - D] `form_row()`
 
-#### 2- On considère le code suivant :
+### 2- On considère le code suivant :
 
 ```php
 $entityManager = $this->getDoctrine()->getManager();
@@ -35,7 +35,7 @@ Quel code doit-on ajouter pour sauver le produit dans la base de données ?
 - C] `$entityManager->save($product);`
 - D] `$entityManager->persist($product);`
 
-#### 3- On considère le code suivant :
+### 3- On considère le code suivant :
 
 ```php
 /**
@@ -64,14 +64,14 @@ Qu'est-ce que retourne un appel à l'url `/home/categories` ?
 - D] Il renvoie une erreur : aucun template pour le chemin donné
 - E] Il retourne la chaîne suivante : `cats dogs horses`
 
-#### 4- Quelle syntaxe peut-on utiliser pour exécuter du code en Twig ?
+### 4- Quelle syntaxe peut-on utiliser pour exécuter du code en Twig ?
 
 - A] `{% %}`
 - B] `{{ }}`
 - C] `{# #}`
 - D] `{ }`
 
-#### 5- On considère le code suivant
+### 5- On considère le code suivant
 
 ```php
 /**
@@ -92,7 +92,7 @@ Comment configure-t-on **ParamConverter** pour que le paramètre `productId` soi
 - D] `@ParamConverter("product", options={"mapping": {"Product": "id"}})`
 
 
-#### 6- Comment fait-on pour récupérer un paramètre POST appelée `foo` depuis l'objet `$request` de type Request ?
+### 6- Comment fait-on pour récupérer un paramètre POST appelée `foo` depuis l'objet `$request` de type Request ?
 
 - A] `$request->request->get('foo')`
 - B] `$request->get('foo')`
@@ -102,14 +102,14 @@ Comment configure-t-on **ParamConverter** pour que le paramètre `productId` soi
 - F] `$request->parameter('foo')`
 
 
-#### 6- Un utilisateur est-il authentifié auprès de tous les firewalls après un login réussi ?
+### 7- Un utilisateur est-il authentifié auprès de tous les firewalls après un login réussi ?
 
 - A] Oui, c'est automatique
 - B] Oui, si les firewalls ont la même valeur que l'option `context`
 - C] Oui, si l'option `shared` vaut vrai
 - D] Non, ce n'est pas possible, les firewalls sont indépendants les uns des autres
 
-#### 7- On considère le code suivant :
+### 8- On considère le code suivant :
 
 
 ```php
@@ -149,7 +149,7 @@ Quel est le résultat de l'exécution de la commande `php bin/console book:add T
 - D] Erreur : missing method `initialize()`
 
 
-#### 8- Vous souhaitez créer une nouvelle commande de console avec Symfony.
+### 9- Vous souhaitez créer une nouvelle commande de console avec Symfony.
 
 Quelle classe utiliseriez-vous pour créer des **styles de sortie personnalisés** ?
 
@@ -158,7 +158,7 @@ Quelle classe utiliseriez-vous pour créer des **styles de sortie personnalisés
 - C] Symfony\Component\Console\OutputStyle
 - D] Symfony\Component\Console\OutputFormatter
 
-#### 9- On considère l'entité suivante
+### 10- On considère l'entité suivante
 
 ```php
 /**
@@ -186,7 +186,7 @@ class Product
 - E] l'annotation `@ORM\HasLifecycleCallbacks()`
 
 
-#### 10- Quel type de réponse sera produit par le code suivant :
+### 11- Quel type de réponse sera produit par le code suivant :
 
 ```php
 use Symfony\Component\HttpFoundation\File\File;
@@ -205,7 +205,7 @@ public function download()
 - D] Erreur : nombre d'arguments invalide pour la fonction `file()`
 
 
-#### 11- Si vous souhaitez mettre en place un filtre de requêtes avec Symfony 3+, vous pouvez utiliser :
+### 12- Si vous souhaitez mettre en place un filtre de requêtes avec Symfony 3+, vous pouvez utiliser :
 
 - A] Event Listeners
 - B] Event Subscribers
@@ -213,7 +213,7 @@ public function download()
 - D] Le filtrage de requête n'est pas supporté par Symfony 3+
 
 
-#### 12- Parmi les exemples ci-contre, quel sont ceux qui permettent de charger un service dans un controlleur ?
+### 13- Parmi les exemples ci-contre, quel sont ceux qui permettent de charger un service dans un controlleur ?
 
 - A] `$this->get('service.to.load')`
 - B] `$this->getFromContainer('service.to.load')`
