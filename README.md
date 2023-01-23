@@ -3,7 +3,7 @@
 
 >Durée : 45 minutes maximum
 
->15 Questions Symfony - 10 questions PHP - 5 questions SQL
+>15 Questions Symfony - 10 questions PHP (dont un exercice de code) - 5 questions de culture Informatique
 
 >Bonne réponse = 1 pts, Mauvaise réponse = -1 pts, Pas de réponse = 0 pts
 
@@ -356,4 +356,52 @@ echo gettype($a); // prints 'string'
 
 Répondre avec le nom de la fonction.
 
-### 10- 
+
+### 10- Exercice de code
+
+Dans ce problème, on vous donne les prix quotidiens de certaines actions, et on vous
+demande de trouver les trois actions dont le cours moyen est le plus élevé.
+
+Ecrivez la fonction `getTopStocks($stocks, $prices)` qui prend comme entrée :
+
+- un tableau de chaînes de caractères ( `$stocks` ), représentant les actions considérées.
+- un tableau de 2 dimensions ( `$prices` ), représentant les prix des actions (listes intérieures) pour chaque jour (liste extérieure).
+
+Un exemple d'entrée ressemblerait à ceci :
+```
+['AMZN', 'CACC', 'EQIX', 'GOOG', 'ORLY', 'ULTA']
+```
+
+```
+[12.81, 11.09, 12.11, 10.93, 9.83, 8.14], [10.34, 10.56, 10.14, 12.17, 13.1, 11.22], [11.5
+3, 10.67, 10.42, 11.88, 11.77, 10.21]
+```
+
+Votre `getTopStocks` fonction doit retourner un tableau contenant les noms des trois
+actions ayant la valeur moyenne la plus élevée. Le tableau doit être trié par valeur
+moyenne décroissante. Chaque action aura une valeur moyenne unique.
+
+Pour l'exemple ci-dessus, le résultat correct serait :
+```
+['GOOG', 'ORLY', 'AMZN']
+```
+
+
+# Culture informatique
+
+### 1- En HTML, quelle option utiliseriez-vous pour inclure une feuille de style CSS externe ?
+
+- A] `<stylesheet>mystyle.css</stylesheet>`
+- B] `<style src="mystyle.css">`
+- C] `<script type="text/css" src="mystyle.css">`
+- D] `<link rel="stylesheet" type="text/css" href="mystyle.css">`
+
+### 2- En HTML, que faut-il ajouter à un champ de formulaire pour le désactiver ?
+
+- A] `Une classe disabled`
+- B] `Un attribut disabled`
+- C] `Une classe read-only`
+- D] `Un attribut read-only`
+
+### 3- 
+Aucune des propositions
