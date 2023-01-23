@@ -1,6 +1,11 @@
-# Test technique Livenexx : Lead développeur Symfony
+# Test technique Livenexx 
+### *Poste : Lead développeur Symfony*
 
-Chaque mauvaise réponse enlève 1 points
+>Durée : 45 minutes maximum
+
+>15 Questions Symfony - 10 questions PHP - 5 questions SQL
+
+>Bonne réponse = 1 pts, Mauvaise réponse = -1 pts, Pas de réponse = 0 pts
 
 # Symfony
 
