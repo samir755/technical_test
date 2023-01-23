@@ -221,4 +221,139 @@ public function download()
 - D] `$this->getContainer()->get('service.to.load')`
 
 
+### 14- Comment feriez-vous pour vérifier que vous pouvez utiliser la variable book depuis un template twig ?
 
+- A] `{% if book is defined %}`
+- B] `{% if book exists %}`
+- C] `{% if book is present %}`
+- D] `{% if book is available %}`
+
+### 15- On considère les templates suivants :
+
+`base.html.twig`
+
+```php
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}John's Shop{% endblock %}</title>
+    </head>
+    <body>
+        <div id="content">
+            {% block body %}{% endblock %}
+        </div>
+    </body>
+</html>
+```
+
+`page.html.twig`
+
+```php
+{% extends 'base.html.twig' %}
+{% block title %}Products for cats{% endblock %}
+{% block body %}
+    <div>Good products for your cat</div>
+{% endblock %}
+```
+
+Quel sera **le titre de la page** au chargement du template `page.html.twig` ?
+
+- A] John's Shop
+- B] Products for cats
+- C] John's Shop - Products for cats
+- D] Good products for your cat
+
+# PHP
+
+### 1- En PHP, un entier est stocké sur...
+
+- A] 32 bits
+- B] 64 bits
+- C] 32 ou 64 bits : cela dépend de la plateforme
+
+### 2- Parmi ces types de variables, sélectionnez ceux qui sont valides en PHP.
+
+- A] integer
+- B] long
+- C] array
+- D] string
+- E] char
+
+### 3- Répondez à cette question
+
+Si la variable `$a` est égal à 7 et la variable `$b` est égale à `$a`, quelle est la valeur de `$$b` ?
+
+
+### 4- Quelle est la valeur de la variable $sentence ?
+
+```php
+$a = 4;
+$b = 10;
+$sentence = "There are ".$a++." cakes for ".++$b." people.";
+```
+
+### 5- Quel serait le résultat du code ci-dessus ?
+
+```php
+$numbers = array('one', 'two', 'three', 'four');
+$sliced = array_slice($numbers, -2, 1);
+echo end($sliced);
+```
+
+- A] one
+- B] two
+- C] three
+- D] four
+
+### 6- Quelle fonction n'est pas une fonction PHP par défaut ?
+
+- A] floatval
+- B] print_r
+- C] is_real
+- D] getsize
+
+
+### 7- Si vous exécutez le code suivant plusieurs fois :
+
+`$encoded = md5(‘my test string’);`
+
+Quelle proposition est vraie concernant de la valeur de `$encoded` ?
+
+- A] Elle sera toujours la même
+- B] Elle alterne entre deux valeurs
+- C] Elle sera plus encodée à chaque fois
+
+### 7- Quelles propositions sont évaluées à true ?
+
+```php
+$a = 47;
+$b = 'test';
+```
+
+- A] `( $b || ($a<=75 && $a>=30) )`
+- B] `( $b===true || ($a>=75 && $a<=30) )`
+- C] `( $b && ($a<=75 || $a>=30) )`
+- D] `( $b===true && ($a<=75 || $a>=30) )`
+
+
+### 8- Quelles propositions convertissent le type de la variable $a en un entier ?
+
+*Sélectionner toutes les bonnes réponses.*
+
+```php
+$a = '8';
+echo gettype($a); // prints 'string'
+```
+
+- A] `settype($a, 'integer');`
+- B] `$a = (int)$a;`
+- C] `unset($a);`
+- D] `is_integer($a);`
+
+
+### 9- Quelle fonction permet d'obtenir les informations détaillées sur la version PHP quiest installée, avec les modules et les extensions ?
+
+Répondre avec le nom de la fonction.
+
+### 10- 
