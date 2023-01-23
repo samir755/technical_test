@@ -13,10 +13,10 @@
 
 *Plusieurs réponses attendues.*
 
-- A] form_show()
-- B] form_start()
-- C] form_display()
-- D] form_row()
+- A] `form_show()`
+- B] `form_start()`
+- C] `form_display()`
+- D] `form_row()`
 
 #### 2- On considère le code suivant :
 
