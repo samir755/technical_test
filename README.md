@@ -1,7 +1,7 @@
 # Test technique Livenexx 
 ### *Poste : Lead développeur Symfony*
 
->Durée : 45 minutes maximum
+>Durée : 40 minutes maximum
 
 >15 Questions Symfony - 10 questions PHP (dont un exercice de code) - 5 questions de culture Informatique
 
@@ -324,7 +324,7 @@ Quelle proposition est vraie concernant de la valeur de `$encoded` ?
 - B] Elle alterne entre deux valeurs
 - C] Elle sera plus encodée à chaque fois
 
-### 7- Quelles propositions sont évaluées à true ?
+### 8- Quelles propositions sont évaluées à true ?
 
 ```php
 $a = 47;
@@ -337,7 +337,7 @@ $b = 'test';
 - D] `( $b===true && ($a<=75 || $a>=30) )`
 
 
-### 8- Quelles propositions convertissent le type de la variable $a en un entier ?
+### 9- Quelles propositions convertissent le type de la variable $a en un entier ?
 
 *Sélectionner toutes les bonnes réponses.*
 
@@ -350,11 +350,6 @@ echo gettype($a); // prints 'string'
 - B] `$a = (int)$a;`
 - C] `unset($a);`
 - D] `is_integer($a);`
-
-
-### 9- Quelle fonction permet d'obtenir les informations détaillées sur la version PHP quiest installée, avec les modules et les extensions ?
-
-Répondre avec le nom de la fonction.
 
 
 ### 10- Exercice de code
