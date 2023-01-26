@@ -321,7 +321,7 @@ Quelle proposition est vraie concernant de la valeur de `$encoded` ?
 
 - A] Elle sera toujours la même
 - B] Elle alterne entre deux valeurs
-- C] Elle sera plus encodée à chaque fois
+- C] Elle sera réencodée à chaque fois
 
 ### 8- Quelles propositions sont évaluées à true ?
 
