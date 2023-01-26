@@ -182,8 +182,7 @@ class Product
 - A] Avant que l'entité ne soit persistée en base de données
 - B] Après que l'entité soit persistée en base de données
 - C] Jamais : l'annotation `@ORM\PrePersist` n'existe pas
-- D] Jamais : les callbacks du cyle de vie n'ont pas été activés par
-- E] l'annotation `@ORM\HasLifecycleCallbacks()`
+- D] Jamais : les callbacks du cyle de vie n'ont pas été activés par l'annotation `@ORM\HasLifecycleCallbacks()`
 
 
 ### 11- Quel type de réponse sera produit par le code suivant :
